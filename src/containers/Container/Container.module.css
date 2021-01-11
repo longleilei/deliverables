@@ -1,0 +1,11 @@
+.Container { 
+    display: flex; 
+    flex-direction: column;
+    flex-flow: wrap; 
+    justify-content: center; 
+    width: 80%; 
+    margin: auto; 
+    text-align: center;
+
+}
+

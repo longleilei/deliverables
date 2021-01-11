@@ -1,0 +1,15 @@
+[   { "id": 1, "task":"Creating the project webpage for managing the workflow and monitoring the progress of the team", "estimated completion time":"Dec 1, 2020", "comments": "in process" ,"completed": "V"},
+    { "id": 2, "task":"Identifying the weaknesses of the existing cross-border remittance models, selecting specific primary/secondary problems", "estimated completion time":"Dec 14, 2020", "comments": "in process" ,"completed": "X"},
+    { "id": 3, "task":"Investigating more on performance, scale, security aspects, clarifying policy restrictions", "estimated completion time":"Dec 28, 2020", "comments": "in process" ,"completed": "V"},
+    { "id": 4, "task":"Outlining main sections and theoretical backgrounds in the Interim Report ", "estimated completion time":"Jan 11, 2021", "comments": "in process" ,"completed": "X"},
+    { "id": 5, "task":"Identifying and confirming consensus mechanism, blockchain platform, designing nodes, building the APIs", "estimated completion time":"Jan 25, 2021", "comments": "in process" ,"completed": "X"},
+    { "id": 6, "task":"Sketching the prototype of the web/mobile app, finalizing on applied technologies ", "estimated completion time":"Feb 8, 2021", "comments": "in process" ,"completed": "X"},
+    { "id": 7, "task":"Designing, deploying, testing smart contracts ", "estimated completion time":"Feb 22, 2021", "comments": "in process" ,"completed": "X"},
+    { "id": 8, "task":"Creating backend", "estimated completion time":"Mar 15, 2021", "comments": "in process" ,"completed": "X"},
+    { "id": 9, "task":"Creating front-end, testing the app", "estimated completion time":"Apr 5, 2021", "comments": "in process" ,"completed": "X"},
+    { "id": 10, "task":"Completing the Final Report, Exhibition poster and Preparing the Presentation ", "estimated completion time":"Mar 19, 2021", "comments": "in process" ,"completed": "X"}
+    
+
+
+
+]

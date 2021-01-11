@@ -1,0 +1,17 @@
+.Comment{
+    display: flex; 
+    flex-direction: column;
+    padding: 0 2rem 0 0; 
+    margin: auto; 
+
+}
+
+.Comment textarea{
+    width: 100%;
+    margin: 3rem 0 2rem 0; 
+}
+
+.Comment h2{
+    text-align: center;
+}
+

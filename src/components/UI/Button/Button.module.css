@@ -1,0 +1,35 @@
+.Button {
+    border: 1px solid plum; 
+    background-color: transparent;
+    color: black; 
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Button:hover, 
+.Button:active{
+    border: 1px solid #00e6e6;  
+    background-color: #00e6e6; 
+}
+
+.Comment-btn{
+    width: 20%;
+    font-size: 15px; 
+    margin: auto; 
+}
+
+.NewPost-btn{
+    display: block; 
+    margin: 30px auto; 
+}
+
+.AreYouSureBlock-btn{
+    margin: auto; 
+}
+
+
