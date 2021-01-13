@@ -25,7 +25,7 @@ const Schedule = () => {
         prepareRow  } = tableInstance;
 
     return ( 
-    <Aux>
+    <Aux className={styles.Schedule}>
         <h1>Milestones</h1>
         <table
             {...getTableProps()}>

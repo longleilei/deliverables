@@ -1,4 +1,38 @@
 .Schedule { 
+    text-align: center;
+    border: 1px solid grey; 
+    box-shadow: 0 2px 3px #ccc; 
+    box-sizing: border-box;
+    background-color: #bfbfbf;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+table {
+    font-size: 8px; 
+    border-collapse: collapse;
+    margin-bottom: 10%; 
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color:  #bfbfbf;
+    color: white;
+  }
+
+@media(min-width: 600px){
+  .Schedule { 
     width: 600px; 
     padding: 16px; 
     text-align: center;
@@ -9,8 +43,6 @@
     align-items: center;
     margin-bottom: 20px; 
 }
-
-
 
 table {
     font-size: 20px; 
@@ -35,3 +67,4 @@ table {
     background-color:  #bfbfbf;
     color: white;
   }
+}

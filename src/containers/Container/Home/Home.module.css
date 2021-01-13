@@ -1,6 +1,6 @@
 .Home {
     width: 100%; 
-    padding: 16px; 
+    padding: 20px 0 20px 0; 
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
@@ -13,19 +13,51 @@ p{
 
 section{
     display: flex; 
-    justify-content: space-between;
-    width: 1000px; 
-    margin: auto; 
-    padding: 50px; 
+    flex-direction: column;
 }
 
 section h2{
     font-size: 40px; 
     margin-top: 10%;
+    text-align: center; 
 }
 section div{
-    width: 80%; 
+    width: 100%; 
     text-align: left; 
     font-size: 20px; 
 
+}
+
+@media(min-width: 600px){
+    .Home {
+        width: 100%; 
+        padding: 16px; 
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    
+    p{
+        font-size: 20px; 
+    }
+    
+    section{
+        display: flex; 
+        justify-content: space-between;
+        width: 1000px; 
+        margin: auto; 
+        padding: 50px; 
+    }
+    
+    section h2{
+        font-size: 40px; 
+        margin-top: 10%;
+    }
+    section div{
+        width: 80%; 
+        text-align: left; 
+        font-size: 20px; 
+    
+    } 
 }

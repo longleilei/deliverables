@@ -1,15 +1,29 @@
 .Blog{
     width: 100%; 
-    padding: 16px; 
+    padding: 16px 0 16px 0; 
     text-align: center;
     box-sizing: border-box;
-    align-items: center;
-    margin-bottom: 20px; 
-    
+    align-items: center;    
 }
 
 .Blog h1{
-    font-size: 50px; 
+    font-size: 40px; 
+}
+
+@media(min-width: 600px){
+    .Blog{
+        width: 100%; 
+        padding: 16px; 
+        text-align: center;
+        box-sizing: border-box;
+        align-items: center;
+        margin-bottom: 20px; 
+        
+    }
+    
+    .Blog h1{
+        font-size: 50px; 
+    }
 }
 
 

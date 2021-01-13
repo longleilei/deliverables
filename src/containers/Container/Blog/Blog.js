@@ -20,8 +20,13 @@ class Blog extends Component{
 
     onPostCreate = () => {
         this.setState({
-            ...this.state,
             viewForm: true
+        })
+    }
+
+    onPostHide = () => {
+        this.setState({
+            viewForm: false
         })
     }
 
@@ -94,7 +99,7 @@ class Blog extends Component{
             
         return (
             <div className={styles.Blog}>
-                <Button onClick={this.state.viewForm ? this.onPostHide : this.onPostCreate}>{this.state.viewForm ? "Hide Post" : "Create Post"}</Button>
+                <Button onClick={(this.state.viewForm) ? this.onPostHide : this.onPostCreate}>{(this.state.viewForm) ? "Hide Post" : "Create Post"}</Button>
                 {(this.state.viewForm) ? <NewPost onClick={this.props.viewForm}/> : ''}
                 <h1>What we've done so far</h1>
                 {transformedPosts}

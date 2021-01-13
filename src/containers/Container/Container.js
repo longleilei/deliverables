@@ -10,10 +10,11 @@ class Container extends Component {
     render() {
         return (
             <div className={styles.Container}>
-                <Route path="/deliverables/" exact component={Home} />
-                <Route path="/deliverables/home" exact component={Home} />
-                <Route path="/deliverables/schedule" exact component={Schedule}/>
-                <Route path="/deliverables/blog" exact component={Blog}/>   
+
+                <Route exact path="/" component={ Home } />
+                <Route exact path="/home" component={ Home }/>
+                <Route exact path="/schedule" component={ Schedule }/>
+                <Route exact path="/blog" component={Blog}/>
             </div>
         )
     }

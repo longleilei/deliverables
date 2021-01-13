@@ -1,5 +1,5 @@
 .Post{
-    width: 80%; 
+    width: 100%; 
     border: 1px solid  rgb(230, 227, 227); 
     box-shadow: 0 2px 3px #ccc; 
     box-sizing: border-box; 
@@ -10,15 +10,42 @@
 
 .Post header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     font-weight: bold;
 }
 
 .Post div{
-    text-align: left; 
+    text-align: left;
+    margin-bottom: 15px;  
 }
 
 .Post footer h2{ 
     margin: 20px 30px 10px 0;
+}
+
+@media(min-width: 600px){
+    .Post{
+        width: 70%; 
+        border: 1px solid  rgb(230, 227, 227); 
+        box-shadow: 0 2px 3px #ccc; 
+        box-sizing: border-box; 
+        margin: 20px auto; 
+        padding: 30px 15px 30px 40px;
+        font-size: 20px; 
+    }
+    
+    .Post header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    
+    .Post div{
+        text-align: left; 
+    }
+    
+    .Post footer h2{ 
+        margin: 20px 30px 10px 0;
+    }
 }

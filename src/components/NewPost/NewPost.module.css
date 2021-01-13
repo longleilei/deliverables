@@ -1,5 +1,5 @@
 .NewPost{
-    width: 80%;
+    width: 100%;
     margin: 20px auto; 
     border: 1px solid #eee; 
     box-shadow: 0 2px 3px #ccc; 
@@ -32,3 +32,38 @@
     white-space: pre-wrap;
 }
 
+@media(min-width: 600px){
+    .NewPost{
+        width: 80%;
+        margin: 20px auto; 
+        border: 1px solid #eee; 
+        box-shadow: 0 2px 3px #ccc; 
+        text-align:center; 
+    }
+    
+    .NewPost h2{
+        font-size: 30px; 
+    }
+    
+    .NewPost label{
+        display: block;
+        margin: 20px auto; 
+        text-align: center; 
+        font-weight: bold;
+    
+    }
+    
+    .NewPost input, 
+    .NewPost textarea, 
+    .NewPost select{
+        display: block; 
+        width: 70%; 
+        box-sizing: border-box; 
+        border: 1px solid black; 
+        outline: none;
+        margin:auto;  
+        font-size: 20px; 
+        font-family: inherit;
+        white-space: pre-wrap;
+    }
+}
